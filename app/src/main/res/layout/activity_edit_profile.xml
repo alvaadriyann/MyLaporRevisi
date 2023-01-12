@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Edit Profile"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/profile_photo" />
+
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Name"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editName"
+                android:paddingLeft="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/coloumn_login"
+                android:hint="Nama Lengkap" />
+        </FrameLayout>
+
+
+
+            <TextView
+                android:id="@+id/Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Alamat"
+                android:textColor="@color/text_grey"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:paddingLeft="14dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/coloumn_login"
+                    android:hint="Alamat Tempat Tinggal" />
+            </FrameLayout>
+
+
+
+                <TextView
+                    android:id="@+id/Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_bold"
+                    android:text="Username"
+                    android:textColor="@color/text_grey"
+                    android:textSize="16sp"
+                    android:layout_marginTop="15dp"/>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:paddingLeft="14dp"
+                        android:inputType="textEmailAddress"
+                        android:background="@drawable/coloumn_login"
+                        android:hint="Username" />
+                </FrameLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:text="Email"
+                        android:textColor="@color/text_grey"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"/>
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/editEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:paddingLeft="14dp"
+                            android:inputType="textEmailAddress"
+                            android:background="@drawable/coloumn_login"
+                            android:hint="Email" />
+                    </FrameLayout>
+
+
+
+                        <TextView
+                            android:id="@+id/noHP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_sans_bold"
+                            android:text="Nomor HP"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp"
+                            android:layout_marginTop="15dp"/>
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/editnoHP"
+                                android:layout_width="match_parent"
+                                android:layout_height="46dp"
+                                android:paddingLeft="14dp"
+                                android:inputType="textEmailAddress"
+                                android:background="@drawable/coloumn_login"
+                                android:hint="Isi Nomor Hp" />
+                        </FrameLayout>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+</LinearLayout>
